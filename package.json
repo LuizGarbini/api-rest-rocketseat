@@ -1,0 +1,9 @@
+{
+  "name": "api-rest-rocketseat",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "description": "Criando API REST com Node.js",
+  "scripts": {},
+  "author": "Luiz Garbini Neto",
+  "license": "ISC"
+}
