@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "description": "Criando API REST com Node.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "author": "Luiz Garbini Neto",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.4"
   }
 }
