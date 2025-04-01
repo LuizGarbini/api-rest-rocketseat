@@ -18,11 +18,12 @@ app.get("/products", (request, response) => {
 	response.send(`Página ${page} de ${limit}`);
 });
 
+// Middleware local em uma rota especifica.
 app.post("/products", myMiddleware, (request, response) => {
 	const { name, price } = request.body;
 
 	// response.send(`Produto ${name} custa $ ${price}`)
-	response.status(201).json({ name, price });
+	response.status(201).json({ name, price, user_id: request.user_id });
 });
 
 app.listen(PORT, () => console.log(`Server is running at ${PORT}`));
