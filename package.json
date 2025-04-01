@@ -9,6 +9,7 @@
   "author": "Luiz Garbini Neto",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/express": "^5.0.1",
     "@types/node": "^20.14.12",
     "tsx": "^4.16.2",
